@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace SimhallLocker
 {
-    public class Locker<BathingSuit>
+    public class Locker<T>
     {
-        private BathingSuit contents;
+        private T contents;
 
-        public Locker(BathingSuit contents)
+        public Locker(T contents)
         {
             this.contents = contents;
         }
 
-        public BathingSuit GetContents()
+        public T GetContents()
         {
             return contents;
         }
