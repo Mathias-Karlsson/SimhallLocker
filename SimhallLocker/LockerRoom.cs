@@ -8,12 +8,6 @@ namespace SimhallLocker
 {
     public class LockerRoom<T>
     {
-        public void Add(int, Locker);
-
-        Locker Find(int);
-
-        Boolean HasThing(BathingSuit);
-
 
     }
 }
