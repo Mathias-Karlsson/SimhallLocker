@@ -12,7 +12,12 @@ namespace SimhallLocker
 
         public void Add(int number, Locker<T> locker)
         {
-            
+            locks.Add(locker);
+        }
+
+        public Locker<T> Find(int number)
+        {
+            return locks;
         }
     }
 }
